@@ -17,3 +17,9 @@ function checkCountValue(){
         alert("Count has reached 20!Great job!");
     }
 }
+
+function resetCount() {
+    count = 0;
+    displayCount();
+    alert("Count has been reset to 0.");
+}
